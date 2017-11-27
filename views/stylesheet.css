@@ -1,0 +1,183 @@
+body {
+		margin: 0;
+		background-color: #ff9933;
+}
+
+p {
+		font-family: 'Josefin Sans';
+}
+
+/*----------------------Navbar-----------------------*/
+nav ul {
+		list-style-type: none;
+		font-family: 'Josefin Sans';
+		padding: 0;
+		overflow: hidden;
+		background-color: #000;
+		text-align: center;
+		margin: 0;
+}
+
+nav li {
+		margin-left: 60px;
+}
+
+nav li a {
+		float: left;
+	background-color: #000;
+		font-size: 10pt;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		margin: 0;
+		text-decoration: none;
+}
+
+nav li a:hover {
+		background-color: #fff;
+		color: black;
+}
+
+/*-----------------------Home Page------------------------*/
+
+.home h1 {
+		font-family: 'Josefin Sans';
+		font-size: 30pt;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 200px;
+		color: white;
+}
+
+
+/*-------------------Add Bulletin Page--------------------*/
+
+.addBulletin {
+		margin: 0 auto;
+		width: 30%;
+		height: 400px;
+		font-family: 'Josefin Sans';
+}    
+
+.addBulletin h1 {
+		margin-top: 30px;
+		text-align: center;
+		font-size: 20pt;
+		height: 20px;
+		color: white;
+}
+
+.addBulletin hr {
+		border: black solid 1pt;
+}
+
+.addBulletinTitle {
+		border: solid #000 1px;
+		margin: 0 auto;
+		margin-top: 10px;
+		width: 230px;
+		height: 20px;
+		padding: 10px;
+}
+
+.addBulletinTitle input {
+		width: 230px;
+		height: 20px;
+}
+
+.addBulletinMessage {
+		border: solid #000 1px;
+		margin: 0 auto;
+		margin-top: 10px;
+		width: 230px;
+		height: 200px;
+		padding: 10px;
+}
+
+.addBulletinMessage textarea {
+		width: 230px;
+		height: 200px;
+}
+
+.addBulletinButton {
+		margin: 0 auto;
+		margin-top: 10px;
+		width: 230px;
+		height: 200px;
+		padding: 10px;
+}
+
+.addBulletinButton button {
+		width: 230px;
+}
+
+/*---------------------Bulletins page---------------------*/
+
+.title {
+		font-family: 'Josefin Sans';
+		margin: 0 auto;
+		width: 30%;
+		color: white;
+}
+
+.title h1 {
+		margin-top: 30px;
+		text-align: center;
+		font-size: 20pt;
+}
+
+.title hr {
+		border: black solid 1pt;
+}
+
+.messageWrapper {
+		margin: 0 auto;
+		width: 30%;
+		font-family: 'Josefin Sans';
+} 
+
+.messageWrapper {
+		margin: 0 auto;
+		width: 30%;
+		font-family: 'Josefin Sans';
+} 
+
+.messageTitle {
+		box-sizing: border-box;
+		border: 1pt black solid;
+		width: 100%;
+		background-color: black;
+}
+
+.messageTitle table{
+		margin: 0 auto;
+		text-align: center;
+		vertical-align: middle;
+		padding: 10px;
+}
+
+.messageTitle th{
+		color: white;
+		font-size: 12pt;
+}
+
+.messageTitle td{
+		font-size: 16pt;
+		color: white;
+		border-top: solid white 1pt;
+		padding: 5px;
+}
+
+.messageBody {
+		box-sizing: border-box;
+		border: 1pt black solid;
+		width: 100%;
+		margin-bottom: 20px;
+}
+
+.messageBody table{
+		padding: 10px;
+		font-size: 10pt;
+		color: white;
+}
+

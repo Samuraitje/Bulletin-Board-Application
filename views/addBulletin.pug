@@ -1,0 +1,20 @@
+html
+	head
+		title Bulletin App - #{title}
+		link(rel="stylesheet" href="//fonts.googleapis.com/css?family=Josefin+Sans")
+	body
+		include nav.pug
+	//- Using a form to submit the inputs from the user to the server.
+	div.addBulletin
+		h1 Add New Bulletin
+		hr
+		form(method='POST' action='addBulletin')
+			div.addBulletinTitle
+				input(type='text' placeholder='Title' name='title')
+			div.addBulletinMessage
+				textarea(type='text' name='message' rows='14' cols='26')
+			div.addBulletinButton
+				button(type='submit' value='submit') Post Bulletin
+
+style
+	include stylesheet.css

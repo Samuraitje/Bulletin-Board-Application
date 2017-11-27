@@ -1,0 +1,29 @@
+html
+	head
+		title Bulletin App - #{title}
+		link(rel="stylesheet" href="//fonts.googleapis.com/css?family=Josefin+Sans")
+	body
+		include nav.pug
+	div.title 
+		h1 Bulletin Posts
+		hr
+	div.messageWrapper
+		//- For loop that takes each of row of messageList and declares the message object including the properties and values of title and body from the client server.
+		//- Generates a table for each iteration of the loop including the message title and body.	
+		for message in messageList
+			div.messageTitle
+				table
+					tr
+						th Title
+						tr
+							td #{message.title}
+			div.messageBody
+				table
+					tr
+						td #{message.body}
+
+style
+	include stylesheet.css
+
+
+
